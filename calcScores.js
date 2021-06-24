@@ -1,4 +1,5 @@
-function calcScore(code, guess) {
+
+module.exports = function (code, guess) {
     console.log(code, guess)
     let obj = {
         'correctPos': 0,
@@ -28,5 +29,7 @@ function calcScore(code, guess) {
     // console.log(guess )
     return obj;
 }
+
+
 
 
